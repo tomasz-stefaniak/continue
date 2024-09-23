@@ -80,6 +80,8 @@ const ProgressBar = ({ completed, total }: ProgressBarProps) => {
     );
   }
 
+  console.log("PROGRESS BAR XXX ZZZ");
+
   return (
     <>
       <GridDiv
@@ -111,7 +113,7 @@ const ProgressBar = ({ completed, total }: ProgressBarProps) => {
           />
         </ProgressBarWrapper>
         <P>
-          Free Uses: {completed} / {total}
+          Free Uses WWW: {completed} / {total}
         </P>
       </GridDiv>
 
